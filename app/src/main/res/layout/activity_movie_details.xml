@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/movieNameTextView"
+        android:textSize="@dimen/big_text"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/sinopsisTextView"
+        android:textSize="@dimen/small_text"
+        android:padding="@dimen/padding_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/parentalRatingTextView"
+        android:textSize="@dimen/small_text"
+        android:padding="@dimen/padding_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/inTheatersTextView"
+        android:textSize="@dimen/small_text"
+        android:padding="@dimen/padding_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/genreTextView"
+        android:textSize="@dimen/small_text"
+        android:padding="@dimen/padding_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/durationTextView"
+        android:textSize="@dimen/small_text"
+        android:padding="@dimen/padding_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
